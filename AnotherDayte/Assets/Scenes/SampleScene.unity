@@ -1926,7 +1926,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 200506736}
+  - {fileID: 200506753}
   selectedCommands: []
   variables:
   - {fileID: 200506745}
@@ -3896,6 +3896,7 @@ GameObject:
   - component: {fileID: 328323357}
   - component: {fileID: 328323356}
   - component: {fileID: 328323355}
+  - component: {fileID: 328323365}
   m_Layer: 0
   m_Name: Dialogue Flowchart
   m_TagString: Untagged
@@ -4927,6 +4928,7 @@ MonoBehaviour:
   - {fileID: 328323359}
   - {fileID: 328323358}
   - {fileID: 328323357}
+  - {fileID: 328323365}
   - {fileID: 328323356}
   - {fileID: 328323355}
   - {fileID: 328323344}
@@ -4958,7 +4960,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 328323352}
+  - {fileID: 328323343}
   selectedCommands: []
   variables:
   - {fileID: 328323350}
@@ -5060,8 +5062,7 @@ MonoBehaviour:
   itemId: 31
   indentLevel: 1
   storyText: The main caveat here was bad sleep. On chamomile, I mostly slept well,
-    but with stilton, I really struggled to fall asleep most nights. Broken sleep
-    alone raises dream recall, because every waking is a chance to catch one.
+    but with stilton, I really struggled to fall asleep most nights.
   description: 
   character: {fileID: 759643427}
   portrait: {fileID: 0}
@@ -5274,6 +5275,34 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &328323365
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328323334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.Say
+  itemId: 34
+  indentLevel: 1
+  storyText: Broken sleep alone raises dream recall, because every waking is a chance
+    to catch one.
+  description: 
+  character: {fileID: 759643427}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1001 &345792857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5467,8 +5496,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.0411015, y: 2.411986, z: 3.0679755}
-  m_Center: {x: 0.07205963, y: 0.07093322, z: -0.2572801}
+  m_Size: {x: 3.8206036, y: 2.411986, z: 3.0679755}
+  m_Center: {x: -0.31769145, y: 0.07093322, z: -0.2572801}
 --- !u!114 &357679992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9689,8 +9718,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 856583638}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 856583636}
@@ -9762,7 +9790,7 @@ MonoBehaviour:
   itemId: 26
   indentLevel: 0
   storyText: '*Can one truly allow another in? Can one trust enough to be soft, if
-    only for one night? *'
+    only for one night?*'
   description: 
   character: {fileID: 1683988019}
   portrait: {fileID: 0}
@@ -9871,7 +9899,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Say
   itemId: 23
   indentLevel: 1
-  storyText: '*looks you dead in the eyes while driving around* Hahahaaaaa weeeeee!!!!
+  storyText: '*Looks you dead in the eyes while driving around* Hahahaaaaa weeeeee!!!!
     Yip yip yip yip.'
   description: 
   character: {fileID: 1683988019}
@@ -10227,7 +10255,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 921052022}
+  - {fileID: 921052028}
   selectedCommands: []
   variables:
   - {fileID: 921052012}
@@ -12485,9 +12513,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 957811376}
+  - {fileID: 957811385}
   selectedCommands:
-  - {fileID: 957811368}
+  - {fileID: 957811389}
   variables:
   - {fileID: 957811383}
   - {fileID: 957811382}
@@ -15573,11 +15601,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 804.3919, y: 728.8756}
+  scrollPos: {x: 1257.283, y: 946.38525}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.4300004
+  zoom: 0.3400004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -15585,7 +15613,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1188875683}
+  - {fileID: 1188875682}
   selectedCommands: []
   variables:
   - {fileID: 1188875681}
@@ -16741,8 +16769,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.490531, y: 2.411986, z: 3.0679755}
-  m_Center: {x: 0.29309225, y: 0.07093322, z: -0.2572801}
+  m_Size: {x: 4.036087, y: 2.411986, z: 3.0679755}
+  m_Center: {x: -0.47968578, y: 0.07093322, z: -0.2572801}
 --- !u!1001 &1280855929
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19685,7 +19713,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1447470946
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -19712,7 +19740,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1447470947
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -19739,7 +19767,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1447470948
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -20996,8 +21024,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1457899990}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 1457899988}
@@ -21095,7 +21122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Say
   itemId: 27
   indentLevel: 1
-  storyText: 'I hate those freaking stupid stinky noobies. They always ruin my game
+  storyText: 'I hate those freaking stupid stinky noobs. They always ruin my game
     because they don''t know how to play! '
   description: 
   character: {fileID: 415157475}
@@ -21666,18 +21693,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 804.3919, y: 728.8756}
+  scrollPos: {x: 823.2988, y: 804.1196}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.4300004
+  zoom: 0.4000004
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1502393802}
   selectedCommands: []
   variables:
   - {fileID: 1502393792}
@@ -23039,11 +23067,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 919.9963, y: 776.4918}
+  scrollPos: {x: 992.2394, y: 844.316}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.4000004
+  zoom: 0.3700004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -23051,9 +23079,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1556093618}
-  selectedCommands:
-  - {fileID: 1556093624}
+  - {fileID: 1556093621}
+  selectedCommands: []
   variables:
   - {fileID: 1556093611}
   - {fileID: 1556093610}
@@ -23431,8 +23458,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 53.9575
-    y: -113.52913
+    x: 62.606174
+    y: -109.20488
     width: 127.68
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -23509,8 +23536,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Block
   nodeRect:
     serializedVersion: 2
-    x: 243.75266
-    y: 109.46581
+    x: 245.91487
+    y: 111.62794
     width: 79.472
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -24090,7 +24117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Say
   itemId: 27
   indentLevel: 1
-  storyText: '* Heh, I see absolutely nothing wrong with this situation. *'
+  storyText: '*To himself* Heh, I see absolutely nothing wrong with this situation. '
   description: 
   character: {fileID: 1530204599}
   portrait: {fileID: 0}
@@ -25865,8 +25892,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Block
   nodeRect:
     serializedVersion: 2
-    x: -110.90807
-    y: 119.30143
+    x: -109.65804
+    y: 120.55141
     width: 99.04
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -25930,11 +25957,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 390.79288, y: 494.26318}
+  scrollPos: {x: 442.42526, y: 518.904}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.67000026
+  zoom: 0.6400003
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -25943,8 +25970,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1593638533}
-  selectedCommands:
-  - {fileID: 1593638549}
+  selectedCommands: []
   variables:
   - {fileID: 1593638540}
   - {fileID: 1593638539}
@@ -26084,7 +26110,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1593638549
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -26111,7 +26137,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1593638550
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -27819,7 +27845,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Fungus::Fungus.FungusState
-  selectedFlowchart: {fileID: 328323353}
+  selectedFlowchart: {fileID: 1556093609}
 --- !u!4 &1971623723
 Transform:
   m_ObjectHideFlags: 1
